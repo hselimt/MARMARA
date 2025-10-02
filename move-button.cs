@@ -1,4 +1,4 @@
-namespace movebutton
+namespace MoveButton
 {
     public partial class MoveButton : Form
     {
