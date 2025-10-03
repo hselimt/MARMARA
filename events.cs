@@ -27,10 +27,10 @@ namespace EventsTestApp
         // Letter filtering for TextBox
         private void numbersOnlyTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsLetter(e.KeyChar))
-                e.Handled = true;
+            if (char.IsLetter(e.KeyChar))  // If the pressed key is a letter
+                e.Handled = true;           // don't show in TextBox
             else
-                e.Handled = false;
+                e.Handled = false;          // show in TextBox
         }
 
         // Font size increase on button click
